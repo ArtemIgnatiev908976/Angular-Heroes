@@ -1,0 +1,10 @@
+
+
+<h3>Top Heroes</h3>
+<div *ngIf="heroes.length; else emptyList">
+  <button *ngFor="let hero of heroes" (click)="goToEditHero(hero.id)">
+    {{hero.name}}
+  </button>
+</div>
+
+<ng-template #emptyList>Герои не найдены </ng-template>

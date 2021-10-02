@@ -1,0 +1,26 @@
+.active{
+  color: blue;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px 15px;
+  width: 140px;
+  height: 40px;
+}
+.btn:first-of-type{
+  margin: 0 5px 5px 5px
+}
+.btn:hover{
+  background-color:white ;
+  color: cornflowerblue;
+}
+nav{
+display: flex;
+}
+
